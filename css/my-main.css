@@ -1,0 +1,119 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.nav-lis{ 
+    color: FFFFFF !important; 
+    font-family: 'Open Sans','Roboto','Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif' !important;
+}
+
+nav.scrolling {
+    background-color: rgba(0,0,0,0.5);
+    height: 80px;
+    padding-top: 0px;
+    transition:0.5s
+}
+.my-header{
+    width: 100%;
+    height: 700px;
+}
+
+.my-header img {
+    max-width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: -22;
+    top: 0;
+}
+
+.my-header img .titleStar{
+    max-width: 80%;
+    height: 80%;
+    padding:35px;
+}
+.titleStar{
+    
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+
+.my-header .bg-light {
+    background:  transparent !important;
+}
+
+
+.post1{
+    float: right;
+    width:300px;
+    height:600px;
+    margin-right:15px;
+}
+
+.darkforce{
+    width: 100%;
+    height: 60%;
+}
+
+.darkforce img{
+    max-width: 100%;
+    height:100% ;
+    z-index: -22;
+    top: 0
+}
+
+.post2{
+    float: left;
+    width:300px;
+    height: 290;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+
+
+
+.beforFooter img{
+    max-width: 100%;
+   
+}
+.my-footer .contcontainer img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+   
+    z-index: -22;
+    top: 0
+}
+
+
+
+
+footer{
+	padding-top: 60px;
+	max-width: 100%; 
+    height: 272px;
+    padding-bottom: 60px;
+    background-color: #181818;
+    font-family: 'Open Sans';
+    color: #9B9B9B;
+}
+
+.my-footer {
+    width: 100%;
+    height: 272px;
+   
+    background-size: 100% 100%;
+}
+
+.my-footer ul li a {
+    color: #9B9B9B
+}
+
+.my-footer ul li a:hover {
+    color: #6A6969
+}
